@@ -4,12 +4,12 @@
 \alias{use_module}
 \title{Install course materials}
 \usage{
-use_module(module, path = NULL)
+use_module(module, destdir = NULL)
 }
 \arguments{
 \item{module}{The name of the module}
 
-\item{path}{The path on your computer where you would like the course
+\item{destdir}{The path on your computer where you would like the course
 installed. If \code{NULL}, defaults to your Desktop or some other conspicuous
 place.}
 }

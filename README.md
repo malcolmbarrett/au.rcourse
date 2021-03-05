@@ -24,8 +24,8 @@ au.rcourse::use_module("module_name")
 
 By default, this package downloads the materials to a conspicous place
 like your Desktop. You can also tell `use_module()` exactly where to put
-the materials with `path`:
+the materials with `destdir`:
 
 ``` r
-au.rcourse::use_module("module_name", path = "a/path/on/your/computer")
+au.rcourse::use_module("module_name", destdir = "a/path/on/your/computer")
 ```
