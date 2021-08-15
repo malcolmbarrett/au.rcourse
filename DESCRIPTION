@@ -1,6 +1,6 @@
 Package: au.rcourse
 Title: Install Course Materials for Statistical Programming in R
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Malcolm",
            family = "Barrett",
