@@ -12,7 +12,7 @@
 #'
 #' @export
 use_module <- function(module, destdir = NULL) {
-  module <- paste0("malcolmbarrett/au-stats412-612-", module)
+  module <- paste0("emptyfield-ds/", module)
   usethis::use_course(
     module,
     destdir = destdir
