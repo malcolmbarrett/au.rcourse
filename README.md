@@ -22,7 +22,7 @@ the files you’ll need.
 au.rcourse::use_module("module_name")
 ```
 
-By default, this package downloads the materials to a conspicous place
+By default, this package downloads the materials to a conspicuous place
 like your Desktop. You can also tell `use_module()` exactly where to put
 the materials with `destdir`:
 
