@@ -2,10 +2,7 @@ Package: au.rcourse
 Title: Install Course Materials for Statistical Programming in R
 Version: 0.1.1
 Authors@R: 
-    person(given = "Malcolm",
-           family = "Barrett",
-           role = c("aut", "cre"),
-           email = "malcolmbarrett@gmail.com",
+    person("Malcolm", "Barrett", , "malcolmbarrett@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-0299-5825"))
 Description: Install course materials for the Statistical Programming in
     R.
@@ -15,7 +12,7 @@ BugReports: https://github.com/malcolmbarrett/au.rcourse/issues
 Imports: 
     bookdown,
     broom,
-    cidata,
+    causaldata,
     cowplot,
     datasauRus,
     devtools,
@@ -57,8 +54,7 @@ Imports:
     usethis,
     visdat
 Remotes: 
-    Financial-Times/ftplottools,
-    malcolmbarrett/cidata
+    Financial-Times/ftplottools
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
